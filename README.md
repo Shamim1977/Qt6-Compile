@@ -6,48 +6,40 @@
 
 ## 1. Install NodeJS 18.16.1 with Chocolatey
 
-	`
-		https://nodejs.org/en/download
-	`
+[https://nodejs.org/en/download](https://nodejs.org/en/download)
+	
 
 <br>
 
 ## 2. Install Git
 
-	`
-		https://git-scm.com/downloads
-	`
+[https://git-scm.com/downloads](https://git-scm.com/downloads)
 
 <br>
 
 
 ### 3. Install Visual Studio 2022 with C/C++ capabilities
 
-	`
-		https://visualstudio.microsoft.com/downloads/
-	`
+
+[https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/)
 
 <br>
 
 ### 4. Install Python 3.1
 
-	`
-		https://www.python.org/downloads/
-	`
+[https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 <br>
 
 ### 5. Install C++ compiler supporting C++ 17
 
-<div>
-	(LLVM-16.0.0-win64)
-	https://github.com/llvm/llvm-project/releases/tag/llvmorg-16.0.0<br><br>
-</div>
+[https://github.com/llvm/llvm-project/releases/tag/llvmorg-16.0.0](https://github.com/llvm/llvm-project/releases/tag/llvmorg-16.0.0)
+
 <br>
 
 ### 6. Install CMake
 
-https://cmake.org/download/
+[https://cmake.org/download/](https://cmake.org/download/)
 
 <br>
 
@@ -130,5 +122,5 @@ Linux-Specific: OpenGL developing library (libgl-dev, libegl-dev), libfontconfig
 
 Shamim Hossain<br>
 sparrowmtm@gmail.com<br>
-https://sparrowtech.org<br>
+[https://sparrowtech.org](https://sparrowtech.org)<br>
 +880 1758900389
