@@ -20,15 +20,8 @@
 
 <br>
 
-## 3. Clone QT source
 
-	`
-		git clone git://code.qt.io/qt/qt5.git qt6
-	`
-
-<br>
-
-### 4. Install Visual Studio 2022 with C/C++ capabilities
+### 3. Install Visual Studio 2022 with C/C++ capabilities
 
 	`
 		https://visualstudio.microsoft.com/downloads/
@@ -36,7 +29,7 @@
 
 <br>
 
-### 5. Install Python 3.1
+### 4. Install Python 3.1
 
 	`
 		https://www.python.org/downloads/
@@ -44,7 +37,7 @@
 
 <br>
 
-### 6. Install C++ compiler supporting C++ 17
+### 5. Install C++ compiler supporting C++ 17
 
 <div>
 	(LLVM-16.0.0-win64)
@@ -52,13 +45,13 @@
 </div>
 <br>
 
-### 7. Install CMake
+### 6. Install CMake
 
 https://cmake.org/download/
 
 <br>
 
-### 8. Other dependencies
+### 7. Other dependencies
 	
 	`
 		choco install mingw --version=11.2.0
@@ -85,7 +78,7 @@ https://cmake.org/download/
 
 <br>
 
-### 9. Build QT
+### 8. Build QT
 
 	Windwows:
 
@@ -116,7 +109,7 @@ https://cmake.org/download/
 
 <br>
 
-### 10. Test:
+### 9. Test:
 	
 	`
 		ctest -V -R qlocale
