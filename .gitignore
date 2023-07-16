@@ -1,0 +1,15 @@
+# local env files
+.env
+.env.local
+.env.*.local
+
+# particular folders
+.DS_Store
+.vscode
+node_modules/
+
+# particular extensions
+*.msi
+*.exe
+*.pfx
+*.p12
