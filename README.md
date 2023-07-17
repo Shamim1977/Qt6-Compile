@@ -38,6 +38,13 @@ pip install html5lib
 ```
 
 <br>
+Check if pip's 'site-packages' is set to environment variables like this-
+
+```
+C:\Python311\Lib\site-packages
+```
+
+<br>
 
 ### 5. Install C++ compiler supporting C++ 17
 
