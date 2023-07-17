@@ -91,7 +91,7 @@ Add "GnuWin32\bin" path to system environment variables.
 ### 9. Build QT
 
 Windwows:<br>
-(Use absoute paths if required.)
+(Customize paths accordingly.)
 
 ```
 	git clone git://code.qt.io/qt/qt5.git qt6
