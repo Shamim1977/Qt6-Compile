@@ -96,13 +96,12 @@ Windwows:<br>
 ```
 	git clone git://code.qt.io/qt/qt5.git qt6
 	cd qt6
-	//git switch dev
 
 	perl init-repository
 
 	mkdir qt6-build
 	cd qt6-build
-	..\qt6\configure.bat -prefix C:\path\to\install
+	"..\qt6\configure.bat" -prefix "D:\Qt-Dev\qt6\qt6-build"
 	cmake --build .
 	cmake --install .
 
