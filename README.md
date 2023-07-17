@@ -101,7 +101,7 @@ Windwows:<br>
 
 	mkdir qt6-build
 	cd qt6-build
-	"..\qt6\configure.bat" -prefix "D:\Qt-Dev\qt6\qt6-build"
+	"..\qt6\configure.bat" -prefix "D:\Qt-Dev\qt6\qt6-release"
 	cmake --build .
 	cmake --install .
 
