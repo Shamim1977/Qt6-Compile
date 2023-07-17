@@ -78,7 +78,7 @@ pip install html5lib
 <br>
 
 
-### 8. Install GNUPref
+### 8. Install GNU GPerf
 
 [https://gnuwin32.sourceforge.net/downlinks/gperf.php](https://gnuwin32.sourceforge.net/downlinks/gperf.php)
 
