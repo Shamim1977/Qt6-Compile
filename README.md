@@ -31,6 +31,12 @@
 
 <br>
 
+```
+pip install html5lib
+```
+
+<br>
+
 ### 5. Install C++ compiler supporting C++ 17
 
 [https://github.com/llvm/llvm-project/releases/tag/llvmorg-16.0.0](https://github.com/llvm/llvm-project/releases/tag/llvmorg-16.0.0)
@@ -49,6 +55,7 @@
 	choco install mingw --version=11.2.0
 	choco install ninja
 	choco install strawberryperl
+	choco install winflexbison
 	choco install openssl (optional)
 ```
 
@@ -70,9 +77,18 @@
 
 <br>
 
-### 8. Build QT
 
-Windwows:
+### 8. Install GNUPref
+
+[https://gnuwin32.sourceforge.net/downlinks/gperf.php](https://gnuwin32.sourceforge.net/downlinks/gperf.php)
+
+
+<br>
+
+### 9. Build QT
+
+Windwows:<br>
+(Use absoute paths if required.)
 
 ```
 	git clone git://code.qt.io/qt/qt5.git qt6
@@ -101,7 +117,7 @@ Linux:
 
 <br>
 
-### 9. Test:
+### 10. Test:
 	
 ```
 	ctest -V -R qlocale
