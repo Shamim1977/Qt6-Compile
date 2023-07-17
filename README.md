@@ -127,7 +127,7 @@ mkdir qt6-build
 cd qt6-build
 ```
 ```
-"..\qt6\configure.bat" -prefix "D:\Qt-Dev\qt6\qt6-release"
+"..\configure.bat" -prefix "D:\Qt-Dev\qt6\qt6-release"
 ```
 ```
 cmake --build .
@@ -145,7 +145,7 @@ mkdir qt6-build
 cd qt6-build
 ```
 ```
-../qt6/configure -prefix /path/to/install
+../configure -prefix /path/to/install
 ```
 ```
 cmake --build . --parallel 4
