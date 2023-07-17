@@ -45,24 +45,24 @@
 
 ### 7. Other dependencies
 	
-	`
-		choco install mingw --version=11.2.0
-		choco install ninja
-		choco install strawberryperl
-		choco install openssl (optional)
-	`
+```
+	choco install mingw --version=11.2.0
+	choco install ninja
+	choco install strawberryperl
+	choco install openssl (optional)
+```
 
 <br>
 
 <div>Test GCC, CLang and Perl:</div>
 
-	`
-		g++ --version	
-		gcc --version
-		ninja --version
-		clang++ --version
-		perl --version
-	`
+```
+	g++ --version	
+	gcc --version
+	ninja --version
+	clang++ --version
+	perl --version
+```
 
 <div>Microsoft Visual C++ (MSVC):</div>
 
@@ -72,40 +72,40 @@
 
 ### 8. Build QT
 
-	Windwows:
+Windwows:
 
-	`
-		git clone git://code.qt.io/qt/qt5.git qt6
-		cd qt6
-		//git switch dev
+```
+	git clone git://code.qt.io/qt/qt5.git qt6
+	cd qt6
+	//git switch dev
 
-		perl init-repository
+	perl init-repository
 
-		mkdir qt6-build
-		cd qt6-build
-		..\qt6\configure.bat -prefix C:\path\to\install
-		cmake --build .
-		cmake --install .
+	mkdir qt6-build
+	cd qt6-build
+	..\qt6\configure.bat -prefix C:\path\to\install
+	cmake --build .
+	cmake --install .
 
-	`
+```
 
-	Linux:
+Linux:
 
-	`
-		mkdir qt6-build
-		cd qt6-build
-		../qt6/configure -prefix /path/to/install
-		cmake --build . --parallel 4
-		cmake --install .
-	`
+```
+	mkdir qt6-build
+	cd qt6-build
+	../qt6/configure -prefix /path/to/install
+	cmake --build . --parallel 4
+	cmake --install .
+```
 
 <br>
 
 ### 9. Test:
 	
-	`
-		ctest -V -R qlocale
-	`
+```
+	ctest -V -R qlocale
+```
 
 <br>
 
