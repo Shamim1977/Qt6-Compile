@@ -113,7 +113,7 @@ Add "GnuWin32\bin" path to system environment variables.
 
 ### 9. Build QT
 
-Windwows:<br>
+Windows:<br>
 (Customize paths accordingly.)
 
 ```
