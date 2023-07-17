@@ -2,6 +2,8 @@
 
 ## Build Qt6 from Source
 
+[Original Documentation](https://wiki.qt.io/Building_Qt_6_from_Git)
+
 <br>
 
 ## 1. Install NodeJS 18.16.1 with Chocolatey
