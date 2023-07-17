@@ -82,6 +82,7 @@ pip install html5lib
 
 [https://gnuwin32.sourceforge.net/downlinks/gperf.php](https://gnuwin32.sourceforge.net/downlinks/gperf.php)
 
+Add "GnuWin32\bin" path to system environment variables.
 
 <br>
 
