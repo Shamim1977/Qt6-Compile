@@ -73,7 +73,7 @@ choco install strawberryperl
 choco install winflexbison
 ```
 ```
-choco install openssl (optional)
+choco install openssl
 ```
 
 <br>
