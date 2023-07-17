@@ -54,11 +54,19 @@ pip install html5lib
 ### 7. Other dependencies
 	
 ```
-	choco install mingw --version=11.2.0
-	choco install ninja
-	choco install strawberryperl
-	choco install winflexbison
-	choco install openssl (optional)
+choco install mingw --version=11.2.0
+```
+```
+choco install ninja
+```
+```
+choco install strawberryperl
+```
+```
+choco install winflexbison
+```
+```
+choco install openssl (optional)
 ```
 
 <br>
@@ -66,11 +74,19 @@ pip install html5lib
 <div>Test GCC, CLang and Perl:</div>
 
 ```
-	g++ --version	
-	gcc --version
-	ninja --version
-	clang++ --version
-	perl --version
+g++ --version	
+```
+```
+gcc --version
+```
+```
+ninja --version
+```
+```
+clang++ --version
+```
+```
+perl --version
 ```
 
 <div>Microsoft Visual C++ (MSVC):</div>
@@ -94,27 +110,48 @@ Windwows:<br>
 (Customize paths accordingly.)
 
 ```
-	git clone git://code.qt.io/qt/qt5.git qt6
-	cd qt6
+git clone git://code.qt.io/qt/qt5.git qt6
+```
+```
+cd qt6
+```
 
-	perl init-repository
+```
+perl init-repository
+```
 
-	mkdir qt6-build
-	cd qt6-build
-	"..\qt6\configure.bat" -prefix "D:\Qt-Dev\qt6\qt6-release"
-	cmake --build .
-	cmake --install .
-
+```
+mkdir qt6-build
+```
+```
+cd qt6-build
+```
+```
+"..\qt6\configure.bat" -prefix "D:\Qt-Dev\qt6\qt6-release"
+```
+```
+cmake --build .
+```
+```
+cmake --install .
 ```
 
 Linux:
 
 ```
-	mkdir qt6-build
-	cd qt6-build
-	../qt6/configure -prefix /path/to/install
-	cmake --build . --parallel 4
-	cmake --install .
+mkdir qt6-build
+```
+```
+cd qt6-build
+```
+```
+../qt6/configure -prefix /path/to/install
+```
+```
+cmake --build . --parallel 4
+```
+```
+cmake --install .
 ```
 
 <br>
@@ -122,7 +159,7 @@ Linux:
 ### 10. Test:
 	
 ```
-	ctest -V -R qlocale
+ctest -V -R qlocale
 ```
 
 <br>
